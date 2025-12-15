@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[russian]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\usepackage{pscyr} % улучшенный кириллический шрифт
+% пакеты amssymb и amsmath рекомендуется подключать всегда,
+% если в вашем тексте присутствуют сколько-нибудь сложные формулы
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts} % подкл. дополнительных мат. шрифтов
+\usepackage{latexsym} % некоторые редкие символы
+% \usepackage[dvips]{graphicx} % импорт графических изображений в LaTeX
+\usepackage[pdftex]{graphicx} % импорт графических изображений в PdfLaTeX
+\usepackage{geometry} %
+\usepackage{indentfirst} % отступ в первом абзаце
+\usepackage{cite} % ссылки на литературу в виде [1-5,9]
+% \usepackage{listings}
+\usepackage{fancyvrb} % улучшенный вариант verbatim
+%\usepackage{shortvrb) % сокращенный вариант verbatim
+% \usepackage{verbatim}
+\usepackage[large]{caption2}
+\usepackage{url}
+
+\pagestyle{myheadings} % верхний колонтитул (номер страницы)
+
+\newcommand{\imsize}{0.45\columnwidth}
+\newcommand{\bukva}[1]{\begin{tabular}[b]{c} (#1)\\ \\ \\ \end{tabular}}
+
+%Изменение значения междустрочного интервала для всего документа
+%\linespread{1.5}
+
+\geometry{verbose,a4paper,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=1.0cm}
+
+\begin{document}
