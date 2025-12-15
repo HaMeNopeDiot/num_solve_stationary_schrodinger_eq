@@ -204,7 +204,7 @@ e2 = 3.0
 print("e1 =", e1, "   e2 =", e2)
 print("e1 =", e1, "   e2 =", e2, file=LST)
 
-ne = 201
+ne = 20001
 print("ne =", ne)
 print("ne =", ne, file=LST)
 
@@ -257,6 +257,7 @@ for i in np.arange(ne):
             qma_pp_l.append(pp_qma)
 
             ngr += 1
+            
 
 # Вывод значений корней уравнения f(E) = 0
 print(qma_p_l)

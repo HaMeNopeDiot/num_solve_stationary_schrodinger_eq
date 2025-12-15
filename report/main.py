@@ -235,7 +235,8 @@ for i in np.arange(ne):
         if Log1 and Log2:
             energy1 = ee[i-1]
             energy2 = ee[i]
-            eval = m_bis(energy1, energy2, tol)  # уточнение корня методом бисекции
+            eval = m_bis(energy1, energy2, tol)  # уточнение корня методом 
+                                                 # бисекции
 
             print("eval = {:12.5e}".format(eval))
 
@@ -260,11 +261,11 @@ for i in np.arange(ne):
 
 # Вывод значений корней уравнения f(E) = 0
 print(qma_p_l)
-tt = "----------------------------------"
+tt = "---------------------------------------------------"
 print(tt)
 print(tt, file = LST)
-print("           ЭНЕРГИИ")
-print("           ЭНЕРГИИ", file = LST)
+print("                 ЭНЕРГИИ")
+print("                 ЭНЕРГИИ", file = LST)
 print(tt)
 print(tt, file = LST)
 print("k       E, a.u.         E, eV")
@@ -273,7 +274,8 @@ print(tt)
 print(tt, file = LST)
 for k in range(ngr):
     print("{:1d}    {:12.7f}    {:12.7f}".format(k, energy[k], 27.211*energy[k]))
-    print("{:1d}    {:12.7f}    {:12.7f}".format(k, energy[k], 27.211*energy[k]), file = LST)
+    print("{:1d}    {:12.7f}    {:12.7f}".format(k, energy[k], 27.211*energy[k]), 
+          file = LST)
 
 print("  ")
 print("  ", file = LST)
@@ -282,17 +284,18 @@ print("  ", file = LST)
 
 print(tt)
 print(tt, file = LST)
-print("   КВАНТОВОМЕХАНИЧЕСКИЕ СРЕДНИЕ")
-print("   КВАНТОВОМЕХАНИЧЕСКИЕ СРЕДНИЕ", file = LST)
+print("             КВАНТОВОМЕХАНИЧЕСКИЕ СРЕДНИЕ")
+print("             КВАНТОВОМЕХАНИЧЕСКИЕ СРЕДНИЕ", file = LST)
 print(tt)
 print(tt, file = LST)
-print("k       <x>             <x^2>")
-print("k       <x>             <x^2>", file= LST)
+print("k       <p_x>                 <p^2_x>")
+print("k       <p_x>                 <p^2_x>", file= LST)
 print(tt)
 print(tt, file = LST)
 for k in range(ngr):
     print("{:1d}    {:12.7f}    {:12.7f}".format(k, qma_p_l[k], qma_pp_l[k]))
-    print("{:1d}    {:12.7f}    {:12.7f}".format(k, qma_p_l[k], qma_pp_l[k]), file = LST)
+    print("{:1d}    {:12.7f}    {:12.7f}".format(k, qma_p_l[k], qma_pp_l[k]), 
+          file = LST)
 
 fmax = +10.0
 fmin = -10.0
