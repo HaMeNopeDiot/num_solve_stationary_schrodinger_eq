@@ -99,9 +99,9 @@ $ hat(p) = -i ℏ ∇ $
 
 , где $ ∇ = frac(∂, ∂x) vec(i) + frac(∂, ∂y) vec(j) + frac(∂, ∂z) vec(k) $
 
-$ hat(p) = -i ℏ frac(∂, ∂x) $ .
+$ hat(p) = -i ℏ frac(∂, ∂x) $ 
 
-Отсюда
+Отсюда:
 
 $ ⟨p_x⟩ = limits(integral)(-L)^(L) ψ(x) hat(p_x) ψ(x) d x = -i ℏ limits(integral)(-L)^(L) ψ(x) frac(∂ψ(x),∂x) d x = $
 
