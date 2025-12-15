@@ -87,16 +87,17 @@ $ [-1/2d^2/(d x^2) + U(x)] psi(x) = E psi(x) $
 
 Преобразуем (8) к форме
 
-$ d^2 psi(x) / (d x^2) + q(E, x) psi(x) = 0 $,
-где
+$ d^2 psi(x) / (d x^2) + q(E, x) psi(x) = 0 $
+
+, где
 
 $ q(E, x) = 2[E - U(x)] $
 
 Для нахождения квантовомеханических средних $⟨p_x⟩$ и $⟨p_x^2⟩$ вспомним, что
 
-$ hat(p) = -i ℏ ∇ $ ,
+$ hat(p) = -i ℏ ∇ $
 
-где $ ∇ = frac(∂, ∂x) vec(i) + frac(∂, ∂y) vec(j) + frac(∂, ∂z) vec(k) $
+, где $ ∇ = frac(∂, ∂x) vec(i) + frac(∂, ∂y) vec(j) + frac(∂, ∂z) vec(k) $
 
 $ hat(p) = -i ℏ frac(∂, ∂x) $ .
 
