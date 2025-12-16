@@ -167,7 +167,7 @@ def plotting_wf(e):
 
 # Задание отрезка [A, B] (края ямы)
 # L = 2.0
-L = 3.5
+L = 2 * 1.8897
 A = -L
 B = +L
 
@@ -204,7 +204,7 @@ e2 = 3.0
 print("e1 =", e1, "   e2 =", e2)
 print("e1 =", e1, "   e2 =", e2, file=LST)
 
-ne = 20001
+ne = 201
 print("ne =", ne)
 print("ne =", ne, file=LST)
 
